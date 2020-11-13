@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  list-style-type: none;
+}
+.App {
+  text-align: center;
+}
+
+.header {
+  padding: 25px;
+  background-color: #9146ff;
+  color: white;
+}
