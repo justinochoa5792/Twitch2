@@ -4,6 +4,19 @@
 }
 .App {
   text-align: center;
+  color: white;
+}
+body,
+html {
+  background-image: url("./images/dark-purple-twitch-background-design-with-dots-lines_126194-569.webp");
+  background-position: center;
+  background-size: cover;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
 .header {
@@ -11,4 +24,26 @@
   padding: 25px;
   background-color: #9146ff;
   color: white;
+}
+
+.streamers {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+
+.btn {
+  text-align: center;
+  color: white;
+  background-color: white;
+}
+
+.butn {
+  color: white;
+  background-color: #9146ff;
+  height: 35px;
+  border-radius: 10px;
+  margin-left: 10px;
 }

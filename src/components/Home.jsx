@@ -4,12 +4,12 @@ import "../App.css";
 
 const Home = () => {
   return (
-    <div>
-      <button className="btn">
+    <div className="home">
+      <button>
         <Link to="/topgames">Top 20 Games</Link>
       </button>
-      <button className="btn">
-        <Link>TBD</Link>
+      <button>
+        <Link to="/streamers">Get Streamers</Link>
       </button>
     </div>
   );
