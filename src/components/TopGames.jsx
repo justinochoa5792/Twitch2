@@ -9,8 +9,8 @@ const TopGames = () => {
   const getGames = async () => {
     const response = await Axios.get("https://api.twitch.tv/helix/games/top/", {
       headers: {
-        Authorization: process.env.REACT_APP_AUTHORIZATION,
-        "Client-ID": process.env.REACT_APP_ClIENT_ID,
+        Authorization: "Bearer o7slx9f8cby28xwfwj4lbsg5qvo078",
+        "Client-ID": "f84xq6cc6obqj2hyjngf973fot90mi",
       },
     });
     console.log(response.data.data);

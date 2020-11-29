@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import TopGames from "./components/TopGames";
 import GetStreamers from "./components/GetStreamers";
+import LeaderBoard from "./components/LeaderBoard";
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
           exact
           path="/streamers"
           render={(props) => <GetStreamers {...props} />}
+        />
+        <Route
+          exact
+          path="/streams"
+          render={(props) => <LeaderBoard {...props} />}
         />
       </Switch>
     </div>

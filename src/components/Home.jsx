@@ -11,6 +11,9 @@ const Home = () => {
       <button>
         <Link to="/streamers">Get Streamers</Link>
       </button>
+      <button>
+        <Link to="/streams">All Streams</Link>
+      </button>
     </div>
   );
 };

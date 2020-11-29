@@ -17,8 +17,8 @@ const GetStreamers = () => {
       `https://api.twitch.tv/helix/users?login=${term}`,
       {
         headers: {
-          Authorization: process.env.REACT_APP_AUTHORIZATION,
-          "Client-ID": process.env.REACT_APP_ClIENT_ID,
+          Authorization: "Bearer o7slx9f8cby28xwfwj4lbsg5qvo078",
+          "Client-ID": "f84xq6cc6obqj2hyjngf973fot90mi",
         },
       }
     );
